@@ -27,4 +27,7 @@ This creates a security risk where attackers can extract sensitive information i
 - Increased attack surface via XSS
 - Potential data exfiltration
 
+## 💣 Proof of Concept (PoC)
+
+<img width="1920" height="1008" alt="1" src="https://github.com/user-attachments/assets/7181faa5-a83f-4a6d-a4c7-91476faffb02" />
 
